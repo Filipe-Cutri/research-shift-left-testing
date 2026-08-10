@@ -16,7 +16,7 @@ Compara dois pipelines de CI/CD rodando sobre a mesma aplicação vulnerável
 Cada execução grava um JSON em `data/raw/` com tempo de build, tempo do
 estágio de segurança e número de vulnerabilidades encontradas. Depois de
 várias execuções, `analysis/analyze_results.py` consolida os dados, roda o
-teste estatístico e gera os gráficos usados na seção de Resultados do artigo.
+teste estatístico e gera os gráficos usados na seção de Resultados do artigo
 
 ## Como usar
 

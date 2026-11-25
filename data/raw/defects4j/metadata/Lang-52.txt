@@ -1,0 +1,39 @@
+Determine revision date.................................................... OK
+Summary of configuration for Project: Lang
+--------------------------------------------------------------------------------
+    Script dir: /home/user/tools/defects4j/framework
+      Base dir: /home/user/tools/defects4j
+    Major root: /home/user/tools/defects4j/major
+      Repo dir: /home/user/tools/defects4j/project_repos
+--------------------------------------------------------------------------------
+    Project ID: Lang
+       Program: commons-lang
+    Build file: /home/user/tools/defects4j/framework/projects/Lang/Lang.build.xml
+--------------------------------------------------------------------------------
+           Vcs: Vcs::Git
+    Repository: /home/user/tools/defects4j/project_repos/commons-lang.git
+     Commit db: /home/user/tools/defects4j/framework/projects/Lang/active-bugs.csv
+Number of bugs: 61
+--------------------------------------------------------------------------------
+
+Summary for Bug: Lang-52
+--------------------------------------------------------------------------------
+Revision ID (fixed version):
+c22d9d59e5b86c33f91d7fa93d71cdc514c2edd9
+--------------------------------------------------------------------------------
+Revision date (fixed version):
+2007-10-26 06:08:54 +0000
+--------------------------------------------------------------------------------
+Bug report id:
+LANG-363
+--------------------------------------------------------------------------------
+Bug report url:
+https://issues.apache.org/jira/browse/LANG-363
+--------------------------------------------------------------------------------
+Root cause in triggering tests:
+ - org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaScript
+   --> junit.framework.ComparisonFailure: expected:<...ipt>alert(\'aaa\');<[\]/script>\';> but was:<...ipt>alert(\'aaa\');<[]/script>\';>
+--------------------------------------------------------------------------------
+List of modified sources:
+ - org.apache.commons.lang.StringEscapeUtils
+--------------------------------------------------------------------------------

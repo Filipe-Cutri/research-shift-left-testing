@@ -1,0 +1,39 @@
+Determine revision date.................................................... OK
+Summary of configuration for Project: Lang
+--------------------------------------------------------------------------------
+    Script dir: /home/user/tools/defects4j/framework
+      Base dir: /home/user/tools/defects4j
+    Major root: /home/user/tools/defects4j/major
+      Repo dir: /home/user/tools/defects4j/project_repos
+--------------------------------------------------------------------------------
+    Project ID: Lang
+       Program: commons-lang
+    Build file: /home/user/tools/defects4j/framework/projects/Lang/Lang.build.xml
+--------------------------------------------------------------------------------
+           Vcs: Vcs::Git
+    Repository: /home/user/tools/defects4j/project_repos/commons-lang.git
+     Commit db: /home/user/tools/defects4j/framework/projects/Lang/active-bugs.csv
+Number of bugs: 61
+--------------------------------------------------------------------------------
+
+Summary for Bug: Lang-4
+--------------------------------------------------------------------------------
+Revision ID (fixed version):
+0cdc976684efcf478397b68c1d54cefc87bb92c9
+--------------------------------------------------------------------------------
+Revision date (fixed version):
+2013-04-23 06:00:41 +0000
+--------------------------------------------------------------------------------
+Bug report id:
+LANG-882
+--------------------------------------------------------------------------------
+Bug report url:
+https://issues.apache.org/jira/browse/LANG-882
+--------------------------------------------------------------------------------
+Root cause in triggering tests:
+ - org.apache.commons.lang3.text.translate.LookupTranslatorTest::testLang882
+   --> junit.framework.AssertionFailedError: Incorrect codepoint consumption expected:<3> but was:<0>
+--------------------------------------------------------------------------------
+List of modified sources:
+ - org.apache.commons.lang3.text.translate.LookupTranslator
+--------------------------------------------------------------------------------

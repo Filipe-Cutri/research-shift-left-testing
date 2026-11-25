@@ -1,0 +1,39 @@
+Determine revision date.................................................... OK
+Summary of configuration for Project: Lang
+--------------------------------------------------------------------------------
+    Script dir: /home/user/tools/defects4j/framework
+      Base dir: /home/user/tools/defects4j
+    Major root: /home/user/tools/defects4j/major
+      Repo dir: /home/user/tools/defects4j/project_repos
+--------------------------------------------------------------------------------
+    Project ID: Lang
+       Program: commons-lang
+    Build file: /home/user/tools/defects4j/framework/projects/Lang/Lang.build.xml
+--------------------------------------------------------------------------------
+           Vcs: Vcs::Git
+    Repository: /home/user/tools/defects4j/project_repos/commons-lang.git
+     Commit db: /home/user/tools/defects4j/framework/projects/Lang/active-bugs.csv
+Number of bugs: 61
+--------------------------------------------------------------------------------
+
+Summary for Bug: Lang-5
+--------------------------------------------------------------------------------
+Revision ID (fixed version):
+4d46f014fb8ee44386feb5fec52509f35d0e36ea
+--------------------------------------------------------------------------------
+Revision date (fixed version):
+2013-01-03 06:19:52 +0000
+--------------------------------------------------------------------------------
+Bug report id:
+LANG-865
+--------------------------------------------------------------------------------
+Bug report url:
+https://issues.apache.org/jira/browse/LANG-865
+--------------------------------------------------------------------------------
+Root cause in triggering tests:
+ - org.apache.commons.lang3.LocaleUtilsTest::testLang865
+   --> java.lang.IllegalArgumentException: Invalid locale format: _GB
+--------------------------------------------------------------------------------
+List of modified sources:
+ - org.apache.commons.lang3.LocaleUtils
+--------------------------------------------------------------------------------

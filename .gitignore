@@ -18,3 +18,10 @@ trivy-results.json
 # (descomente se quiser regenerar sempre a partir de data/raw)
 # results/figures/*.png
 # data/processed/summary.csv
+
+# Ferramentas locais do experimento (não versionar)
+tools/
+*.zip
+
+# Workspaces temporários do Defects4J
+/tmp/defects4j-smoke/

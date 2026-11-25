@@ -1,0 +1,41 @@
+Determine revision date.................................................... OK
+Summary of configuration for Project: Lang
+--------------------------------------------------------------------------------
+    Script dir: /home/user/tools/defects4j/framework
+      Base dir: /home/user/tools/defects4j
+    Major root: /home/user/tools/defects4j/major
+      Repo dir: /home/user/tools/defects4j/project_repos
+--------------------------------------------------------------------------------
+    Project ID: Lang
+       Program: commons-lang
+    Build file: /home/user/tools/defects4j/framework/projects/Lang/Lang.build.xml
+--------------------------------------------------------------------------------
+           Vcs: Vcs::Git
+    Repository: /home/user/tools/defects4j/project_repos/commons-lang.git
+     Commit db: /home/user/tools/defects4j/framework/projects/Lang/active-bugs.csv
+Number of bugs: 61
+--------------------------------------------------------------------------------
+
+Summary for Bug: Lang-47
+--------------------------------------------------------------------------------
+Revision ID (fixed version):
+1fe5439baf32af2114958e3cfc3512bd72c84773
+--------------------------------------------------------------------------------
+Revision date (fixed version):
+2008-02-13 05:44:46 +0000
+--------------------------------------------------------------------------------
+Bug report id:
+LANG-412
+--------------------------------------------------------------------------------
+Bug report url:
+https://issues.apache.org/jira/browse/LANG-412
+--------------------------------------------------------------------------------
+Root cause in triggering tests:
+ - org.apache.commons.lang.text.StrBuilderTest::testLang412Left
+   --> java.lang.NullPointerException
+ - org.apache.commons.lang.text.StrBuilderTest::testLang412Right
+   --> java.lang.NullPointerException
+--------------------------------------------------------------------------------
+List of modified sources:
+ - org.apache.commons.lang.text.StrBuilder
+--------------------------------------------------------------------------------

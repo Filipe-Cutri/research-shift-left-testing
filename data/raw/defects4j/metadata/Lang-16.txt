@@ -1,0 +1,39 @@
+Determine revision date.................................................... OK
+Summary of configuration for Project: Lang
+--------------------------------------------------------------------------------
+    Script dir: /home/user/tools/defects4j/framework
+      Base dir: /home/user/tools/defects4j
+    Major root: /home/user/tools/defects4j/major
+      Repo dir: /home/user/tools/defects4j/project_repos
+--------------------------------------------------------------------------------
+    Project ID: Lang
+       Program: commons-lang
+    Build file: /home/user/tools/defects4j/framework/projects/Lang/Lang.build.xml
+--------------------------------------------------------------------------------
+           Vcs: Vcs::Git
+    Repository: /home/user/tools/defects4j/project_repos/commons-lang.git
+     Commit db: /home/user/tools/defects4j/framework/projects/Lang/active-bugs.csv
+Number of bugs: 61
+--------------------------------------------------------------------------------
+
+Summary for Bug: Lang-16
+--------------------------------------------------------------------------------
+Revision ID (fixed version):
+41326bf5266ecc6472bab28481b77cecd6f7fb5c
+--------------------------------------------------------------------------------
+Revision date (fixed version):
+2011-08-23 12:32:52 +0000
+--------------------------------------------------------------------------------
+Bug report id:
+LANG-746
+--------------------------------------------------------------------------------
+Bug report url:
+https://issues.apache.org/jira/browse/LANG-746
+--------------------------------------------------------------------------------
+Root cause in triggering tests:
+ - org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber
+   --> java.lang.NumberFormatException: 0Xfade is not a valid number.
+--------------------------------------------------------------------------------
+List of modified sources:
+ - org.apache.commons.lang3.math.NumberUtils
+--------------------------------------------------------------------------------

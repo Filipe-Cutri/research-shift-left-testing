@@ -1,0 +1,4 @@
+project,bug_id,trigger_test,buggy_trigger_failed,fixed_failing_tests,eligibility,reason
+"Lang","1","org.apache.commons.lang3.math.NumberUtilsTest::TestLang747","YES","0","ELIGIBLE","REFERENCE_TEST_CONFIRMED"
+"Jsoup","1","org.jsoup.parser.ParserTest::createsStructureFromBodySnippet","YES","0","ELIGIBLE","REFERENCE_TEST_CONFIRMED"
+"Gson","1","com.google.gson.functional.TypeVariableTest::testSingle","YES","0","ELIGIBLE","REFERENCE_TEST_CONFIRMED"

@@ -1,0 +1,16 @@
+Checking out 65553582 to /tmp/defects4j-validation/Jsoup-48f............... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Copy generated Ant build file.............................................. OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Backing up build file: /tmp/defects4j-validation/Jsoup-48f/maven-build.xml. OK
+Backing up build file: /tmp/defects4j-validation/Jsoup-48f/pom.xml......... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 65553582:73b52d0d..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Jsoup-48f....................................... OK

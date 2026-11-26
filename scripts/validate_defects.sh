@@ -5,7 +5,8 @@ PROJECT="${1:?Uso: $0 PROJECT BUG_ID}"
 BUG_ID="${2:?Uso: $0 PROJECT BUG_ID}"
 
 ROOT="$HOME/projects/research-shift-left-testing"
-WORK_ROOT="/tmp/defects4j-validation"
+WORK_ROOT="$HOME/defects4j-validation"
+trap 'rm -rf -- "$WORK_ROOT/${PROJECT}-${BUG_ID}b" "$WORK_ROOT/${PROJECT}-${BUG_ID}f"' EXIT
 LOG_ROOT="$ROOT/data/raw/defects4j/logs"
 RESULTS="$ROOT/data/raw/defects4j/eligibility.csv"
 
